@@ -1,10 +1,13 @@
+import { Outlet } from "react-router-dom";
+
 import Footer from "./Footer";
 import NavBar from "./NavBar";
 
 export default function Layout(){
     return (
-        <div className="flex flex-col justify-between">
+        <div>
             <NavBar />
+            <Outlet />
             <Footer />
         </div>
     )
