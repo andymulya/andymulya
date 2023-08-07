@@ -1,12 +1,14 @@
-import './index.css'
+import NavBar from './components/NavBar'
+import Profile from './pages/Profile'
+import Footer from './components/Footer'
+// import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
-function App() {
-
+export default function App(){
   return (
-    <>
-      <h1>Hello World</h1>
-    </>
+    <div className="text-white bg-gradient-to-b from-slate-500 to-slate-900">
+      <NavBar />
+      <Profile />
+      <Footer />
+    </div>
   )
 }
-
-export default App
