@@ -1,8 +1,6 @@
-import { Link } from 'react-router-dom'
-
 import profile from '../assets/profile.jpg'
-import Contact from '../components/Profile/Contact'
-import Modal from '../components/Profile/Modal'
+import ContactModal from '../components/Profile/ContactModal'
+import SkillModal from '../components/Profile/SkillModal'
 
 export default function Profile(){
     return (
@@ -15,8 +13,8 @@ export default function Profile(){
                     <p className="py-6 text-cyan-700">I am a <span className="uppercase font-bold text-cyan-900">Junior Front-End Developer</span></p>
                     
                     <div className='flex gap-5 lg:ml-10'>
-                        <Link className="btn border-cyan-600 bg-transparent text-cyan-600" to="/portofolio">Portofolio</Link>
-                        <Modal nameContent={"Contact"} content={<Contact />} style={"btn bg-cyan-600 text-white hover:bg-cyan-700"}/>
+                        <SkillModal />
+                        <ContactModal />
                     </div>
                 </div>
             </div>
