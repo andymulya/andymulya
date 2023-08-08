@@ -1,5 +1,5 @@
 import profile from '../assets/profile.jpg'
-import MediaSocial from '../components/Profile/MediaSocial'
+import MediaSocial from '../components/profile/MediaSocial'
 
 export default function Profile(){
     return (
