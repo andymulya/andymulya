@@ -8,7 +8,7 @@ export default function Navigation(){
                 <li><Link to={'/about'}>About</Link></li>
                 <li><Link to={'/history'}>History</Link></li>
                 <li><Link to={'/knowledge'}>Knowledge</Link></li>
-                <li><Link to={'/portofolio'}>Portofolio</Link></li>
+                <li><Link to={'/portfolio'}>Portfolio</Link></li>
                 <li><Link to={'/contact'}>Contact</Link></li>
             </ul>
         </>
