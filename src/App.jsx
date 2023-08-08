@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Profile from './pages/Profile'
 import Layout from './components/Layout'
 import Portofolio from './pages/Portofolio'
-import Contact from './pages/Contact'
 
 export default function App(){
   return (
@@ -13,7 +12,6 @@ export default function App(){
         <Route path="/" element={<Layout />}>
           <Route index element={<Profile />} />
           <Route path="portofolio" element={<Portofolio />} />
-          <Route path="contact" element={<Contact />} />
         </Route>
       </Routes>
     </BrowserRouter>

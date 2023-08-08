@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
 
 import profile from '../assets/profile.jpg'
+import Contact from '../components/Profile/Contact'
+import Modal from '../components/Profile/Modal'
 
 export default function Profile(){
     return (
@@ -14,7 +16,7 @@ export default function Profile(){
                     
                     <div className='flex gap-5 lg:ml-10'>
                         <Link className="btn border-cyan-600 bg-transparent text-cyan-600" to="/portofolio">Portofolio</Link>
-                        <Link className="btn bg-cyan-600 text-white" to="/contact">Contact</Link>
+                        <Modal nameContent={"Contact"} content={<Contact />} style={"btn bg-cyan-600 text-white"}/>
                     </div>
                 </div>
             </div>
