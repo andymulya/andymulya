@@ -1,8 +1,18 @@
+import { Link } from "react-router-dom";
+import DropDown from "./Dropdown";
+
 export default function NavBar(){
     return(
         <>
-            <div className="p-5">
-                <h1 className="m-3 text-center font-bold text-lg lg:text-left uppercase text-cyan-600"><span className="text-cyan-900">My</span> Portofolio</h1>
+            <div className="navbar bg-transparent">
+                <div className="navbar-start">
+                    <DropDown />
+                </div>
+                <div className="navbar-end">
+                    <Link className="cursor-pointer" to={'/'}>
+                        <h1 className="font-bold text-lg uppercase text-cyan-600 hover:text-xl drop-shadow-sm"><span className="text-cyan-900">My</span> Portofolio</h1>
+                    </Link>
+                </div>
             </div>
         </>
     );

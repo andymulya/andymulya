@@ -3,18 +3,26 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Profile from './pages/Profile'
 import Layout from './components/Layout'
 import Portofolio from './pages/Portofolio'
+import About from './pages/About'
+import History from './pages/History'
+import Knowledge from './pages/Knowledge'
+import Contact from './pages/Contact'
 
 export default function App(){
   return (
-    <div className="bg-gradient-to-t lg:bg-gradient-to-l from-white from-60% to-cyan-200">
+    <div>
       <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Profile />} />
-          <Route path="portofolio" element={<Portofolio />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Profile />} />
+            <Route path="about" element={<About />} />
+            <Route path="history" element={<History />} />
+            <Route path="knowledge" element={<Knowledge />} />
+            <Route path="portofolio" element={<Portofolio />} />
+            <Route path="contact" element={<Contact />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   )
 }
