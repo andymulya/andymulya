@@ -7,7 +7,7 @@ import Contact from './pages/Contact'
 
 export default function App(){
   return (
-    <div className="text-white bg-gradient-to-b from-slate-500 to-slate-900">
+    <div className="bg-gradient-to-t lg:bg-gradient-to-l from-white from-60% to-cyan-200">
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
