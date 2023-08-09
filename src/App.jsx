@@ -13,8 +13,8 @@ export default function App(){
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="andymulya" element={<Layout />}>
-            <Route path="andymulya" element={<Profile />} />
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Profile />} />
             <Route path="about" element={<About />} />
             <Route path="history" element={<History />} />
             <Route path="knowledge" element={<Knowledge />} />
