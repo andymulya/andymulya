@@ -9,28 +9,28 @@ export default function MediaSocial(){
         <div>
 
             {/* Logo Whatsapp */}
-            <div className="tooltip tooltip-bottom cursor-pointer" data-tip="WA">
-                <img className="hover:scale-105 w-[50px] hover:shadow-lg hover:shadow-slate-400 rounded" alt="svgImg" src={ whatsappIcon }/>            
+            <div className="tooltip tooltip-bottom cursor-pointer hover:shadow-lg hover:shadow-slate-400 rounded hover:scale-105 w-[40px] sm:w-[45px]" data-tip="WA">
+                <img alt="svgImg" src={ whatsappIcon }/>            
             </div>
 
             {/* Logo Instagram */}
-            <div className="tooltip tooltip-bottom cursor-pointer" data-tip="Instagram">
-                <img className="hover:scale-105 w-[50px] hover:shadow-lg hover:shadow-slate-400 rounded" alt="svgImg" src={ instagramIcon }/>
+            <div className="tooltip tooltip-bottom cursor-pointer hover:shadow-lg hover:shadow-slate-400 rounded hover:scale-105 w-[40px] sm:w-[45px]" data-tip="Instagram">
+                <img alt="svgImg" src={ instagramIcon }/>
             </div>
 
             {/* Logo Facebook */}
-            <div className="tooltip tooltip-bottom cursor-pointer" data-tip="Facebook">
-                <img className="hover:scale-105 w-[50px] hover:shadow-lg hover:shadow-slate-400 rounded" alt="svgImg" src={ facebookIcon }/>
+            <div className="tooltip tooltip-bottom cursor-pointer hover:shadow-lg hover:shadow-slate-400 rounded hover:scale-105 w-[40px] sm:w-[45px]" data-tip="Facebook">
+                <img alt="svgImg" src={ facebookIcon }/>
             </div>
 
             {/* Logo LinkedIn */}
-            <div className="tooltip tooltip-bottom cursor-pointer" data-tip="LinkedIn">
-                <img className="hover:scale-105 w-[50px] hover:shadow-lg hover:shadow-slate-400 rounded" alt="svgImg" src={ linkedinIcon }/>
+            <div className="tooltip tooltip-bottom cursor-pointer hover:shadow-lg hover:shadow-slate-400 rounded hover:scale-105 w-[40px] sm:w-[45px]" data-tip="LinkedIn">
+                <img alt="svgImg" src={ linkedinIcon }/>
             </div>
 
             {/* Logo GitHub */}
-            <div className="tooltip tooltip-bottom cursor-pointer" data-tip="GitHub">
-                <img className="hover:scale-105 w-[50px] hover:shadow-lg hover:shadow-slate-400 rounded" alt="svgImg" src={ githubIcon }/>
+            <div className="tooltip tooltip-bottom cursor-pointer hover:shadow-lg hover:shadow-slate-400 rounded hover:scale-105 w-[40px] sm:w-[45px]" data-tip="GitHub">
+                <img alt="svgImg" src={ githubIcon }/>
             </div>
         </div>
     )
