@@ -1,8 +1,8 @@
-import whatsappIcon from '../../assets/whatsapp.png'
-import instagramIcon from '../../assets/instagram.png'
-import facebookIcon from '../../assets/facebook.png'
-import linkedinIcon from '../../assets/linkedin.png'
-import githubIcon from '../../assets/github.png'
+import whatsappIcon from '../../assets/img/whatsapp.png'
+import instagramIcon from '../../assets/img/instagram.png'
+import facebookIcon from '../../assets/img/facebook.png'
+import linkedinIcon from '../../assets/img/linkedin.png'
+import githubIcon from '../../assets/img/github.png'
 
 export default function MediaSocial(){
     return(

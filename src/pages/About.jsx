@@ -1,5 +1,5 @@
 import Title from '../components/Title'
-import photo from '../assets/about_me.png'
+import aboutPhoto from '../assets/img/about_me.png'
 import StudyTime from '../components/about/StudyTime'
 
 export default function About(){
@@ -9,7 +9,7 @@ export default function About(){
 
             <div className="flex flex-col lg:flex-row items-center gap-5 m-5 lg:h-screen">     
                 <div className="flex flex-col items-center">
-                    <img src={ photo } className="text w-72"/>
+                    <img src={ aboutPhoto } className="text w-72"/>
                     <label className="text-slate-600 text-sm">Illustration by <a href="https://icons8.com/illustrations/author/ODexzOcCgAMh">Finn Reville</a> from <a href="https://icons8.com/illustrations">Ouch!</a></label>
                 </div>
                 <div className="m-5">

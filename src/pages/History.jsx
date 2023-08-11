@@ -1,5 +1,5 @@
 import Title from '../components/Title'
-import photo from '../assets/history.png'
+import historyPhoto from '../assets/img/history.png'
 import AccordionEdu from '../components/histori/AccordionEdu'
 import AccordionInterest from '../components/histori/AccordionInterest'
 import AccordionCertificate from '../components/histori/AccordionCertificate'
@@ -16,7 +16,7 @@ export default function History(){
                             <p className="text-slate-600 text-lg">This Section for history of my education and what i interested in</p>
                         </div>
                         <div className="flex flex-col w-full md:w-auto items-center md:items-baseline">
-                            <img src={ photo } />
+                            <img src={ historyPhoto } />
                             <label className="text-slate-600 text-sm">Illustration by <a href="https://icons8.com/illustrations/author/kP9rc8JiBCcz">Irene M. Ray</a> from <a href="https://icons8.com/illustrations">Ouch!</a></label>
                         </div>
                     </div>

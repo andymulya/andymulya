@@ -1,4 +1,4 @@
-import iconCheck from '../../assets/check.png'
+import iconCheck from '../../assets/img/check.png'
 
 export default function StudyList({ title, items }){
     return(

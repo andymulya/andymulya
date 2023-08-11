@@ -1,8 +1,8 @@
 import Title from '../components/Title'
-import iconJs from '../assets/javascript.png'
-import iconDart from '../assets/dart.png'
-import iconFlutter from '../assets/flutter.png'
-import iconVite from '../assets/viteJs.png'
+import iconJs from '../assets/img/javascript.png'
+import iconDart from '../assets/img/dart.png'
+import iconFlutter from '../assets/img/flutter.png'
+import iconVite from '../assets/img/viteJs.png'
 import Card from '../components/Card'
 
 export default function Knowledge(){
