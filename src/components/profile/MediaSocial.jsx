@@ -8,11 +8,6 @@ export default function MediaSocial(){
     return(
         <div>
 
-            {/* Logo Whatsapp */}
-            <div className="tooltip tooltip-bottom cursor-pointer hover:shadow-lg hover:shadow-slate-400 rounded hover:scale-105 w-[40px] sm:w-[45px]" data-tip="WA">
-                <img alt="svgImg" src={ whatsappIcon }/>            
-            </div>
-
             {/* Logo Instagram */}
             <div className="tooltip tooltip-bottom cursor-pointer hover:shadow-lg hover:shadow-slate-400 rounded hover:scale-105 w-[40px] sm:w-[45px]" data-tip="Instagram">
                 <img alt="svgImg" src={ instagramIcon }/>

@@ -2,7 +2,7 @@ import Title from '../components/Title'
 import iconJs from '../assets/img/javascript.png'
 import iconDart from '../assets/img/dart.png'
 import iconFlutter from '../assets/img/flutter.png'
-import iconVite from '../assets/img/viteJs.png'
+import iconReactJs from '../assets/img/react.png'
 import Card from '../components/Card'
 
 export default function Knowledge(){
@@ -15,7 +15,7 @@ export default function Knowledge(){
                     <div className="flex flex-col md:flex-row flex-wrap items-center gap-5 justify-center">
                         <Card title={"Javascript Programming"} icon={ iconJs } id={"my_modal_js"} func={ ()=>window.my_modal_js.showModal() } items={["Fundamental Javascript and OOP in Javascript", "Integrated with API in Javascript", "Callback, promise, async await and error handling"]} />
                         <Card title={"Dart Programming"} icon={ iconDart } id={"my_modal_dart"} func={ ()=>window.my_modal_dart.showModal() } items={["Fundamental Dart and OOP in Dart", "Integrated with Rest API in Dart", "Callback, promise, async await and error handling"]} />
-                        <Card title={"Vite Framework"} icon={ iconVite } id={"my_modal_vite"} func={ ()=>window.my_modal_vite.showModal() } items={["Fundamental ReactJS", "Make project with Vite", "Simple component", "Stateless component & Stateful component", "Dynamic component with props", "Lifecycle component", "Integrated with API", "React Router", "React-Hook", "Redux", "Make simple Personal Portfolio Website - Front End", "Make simple Movie Search, integrated with API - Front End"]} />
+                        <Card title={"React Js"} icon={ iconReactJs } id={"my_modal_reactjs"} func={ ()=>window.my_modal_reactjs.showModal() } items={["Fundamental ReactJS", "Make project with Vite", "Simple component", "Stateless component & Stateful component", "Dynamic component with props", "Lifecycle component", "Integrated with API", "React Router", "React-Hook", "Redux", "Make simple Personal Portfolio Website - Front End", "Make simple Movie Search, integrated with API - Front End"]} />
                         <Card title={"Flutter"} icon={ iconFlutter } id={"my_modal_flutter"} func={ ()=>window.my_modal_flutter.showModal() } items={["Fundamental Flutter", "Stateless & Stateful", "Visible & Invisible Widget", "Animated", "Transition", "Responsive & Adaptive", "State Management", "HTTP Request", "Widget Lifecycle", "Application Lifecycle", "Local Storage", "Make simple Mobile App - Al Qur'an and Integrated With Rest API", "Make simple Mobile App - Chasier Bluetooth Printer"]} />
                     </div>
                 </div>

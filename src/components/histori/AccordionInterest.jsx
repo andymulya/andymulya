@@ -19,8 +19,8 @@ export default function AccordionInterest(){
                     desc: <ProgressIndicator value={70} />
                 },
                 {
-                    title: <h1 className="text-md font-semibold text-cyan-800 uppercase">Vite</h1>,
-                    desc: <ProgressIndicator value={65} />
+                    title: <h1 className="text-md font-semibold text-cyan-800 uppercase">React Js</h1>,
+                    desc: <ProgressIndicator value={70} />
                 },
                 {
                     title: <h1 className="text-md font-semibold text-cyan-800 uppercase">Dart</h1>,
