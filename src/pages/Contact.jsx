@@ -24,6 +24,7 @@ export default function Contact(){
                         <TextInput placeHolder={"Email"}/>
                         <TextInput placeHolder={"Subject"}/>
                         <TextArea placeHolder={"Message"}/>
+                        <button className="btn btn-info text-white">Send</button>
                     </form>
                 </div>
             </div>
