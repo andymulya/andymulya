@@ -4,9 +4,29 @@ const LabelCertificate = ({ label1, label2 }) => <p className="text-md text-slat
 
 const items = [
     {
-        title: "2021",
-        desc: <LabelCertificate label1={"Google ads display certification"} label2={"- at Google Website Skillshop"} />
-    }
+        title: "2022 - 2025",
+        desc: <LabelCertificate label1={"Memulai Pemrograman Dengan Dart"} label2={"- Dicoding Indonesia"} />
+    },
+    {
+        title: "2022 - 2025",
+        desc: <LabelCertificate label1={"Belajar Prinsip Pemrograman SOLID"} label2={"- Dicoding Indonesia"} />
+    },
+    {
+        title: "2022 - 2025",
+        desc: <LabelCertificate label1={"Belajar Membuat Aplikasi Flutter untuk Pemula"} label2={"- Dicoding Indonesia"} />
+    },
+    {
+        title: "2022 - 2025",
+        desc: <LabelCertificate label1={"Belajar Dasar Pemrograman Web"} label2={"- Dicoding Indonesia"} />
+    },
+    {
+        title: "2022 - 2025",
+        desc: <LabelCertificate label1={"Belajar Dasar Pemrograman JavaScript"} label2={"- Dicoding Indonesia"} />
+    },
+    {
+        title: "2022 - 2025",
+        desc: <LabelCertificate label1={"Belajar Membuat Aplikasi Back-End untuk Pemula"} label2={"- Dicoding Indonesia"} />
+    },
 ]
 
 export default function AccordionCertificate(){
