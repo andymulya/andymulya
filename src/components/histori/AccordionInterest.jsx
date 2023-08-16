@@ -31,7 +31,7 @@ const items = [
 export default function AccordionInterest(){
     return (
         <div>
-            <h1 className="text-lg uppercase font-bold text-cyan-950 border-l-2 border-cyan-500 pl-2 mb-4">Interest</h1>
+            <h1 className="text-lg uppercase font-bold text-cyan-950 dark:text-cyan-50 border-l-2 border-cyan-500 pl-2 mb-4">Interest</h1>
             <Accordion idAccordion={"my_accordion_interest"} items={items}/>
         </div>
     )
