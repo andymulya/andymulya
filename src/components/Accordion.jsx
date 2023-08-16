@@ -7,7 +7,7 @@ export default function Accordion({ idAccordion, items }){
                         <div className="collapse collapse-arrow join-item border border-base-300" key={i}>
                             <input type="radio" name={idAccordion} /> 
                             <div className="collapse-title text-xl font-medium">
-                                { item.title }
+                                <h1 className="text-md font-semibold text-cyan-800 uppercase">{ item.title }</h1>
                             </div>
                             <div className="collapse-content"> 
                                 { item.desc }
