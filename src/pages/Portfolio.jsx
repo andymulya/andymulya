@@ -3,6 +3,7 @@ import iconQuran from '../assets/img/quran.png'
 import iconBookshelf from '../assets/img/bookshelf.png'
 import iconPrinter from '../assets/img/printer.png'
 import iconPortfolio from '../assets/img/portfolio.png'
+import iconEcommerce from '../assets/img/ecommerce.png'
 import CardNativeJs from '../components/portfolio/CardNativeJs'
 import CardFlutter from '../components/portfolio/CardFlutter'
 import CardNodeJs from '../components/portfolio/CardNodeJs'
@@ -15,7 +16,7 @@ export default function Portfolio(){
             title: "Simple Web E-Commerce and Integrated With Rest API",
             tags: ["reactjs", "javascript", "api", "tailwind", "vite"],
             label: "reactjs",
-            icon:null
+            icon: iconEcommerce
         },
         {
             title: "Simple Web Catatan For Save Your Catatan",

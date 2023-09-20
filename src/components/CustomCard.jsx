@@ -14,7 +14,7 @@ export default function CustomCard({ title, tags, color, shadowColor, label, ico
                     </div>
                 </div>
                 <h1 className="card-title mt-5 text-sm z-10 dark:text-cyan-50">{ title }</h1>
-                <div className="flex flex-row flex-wrap gap-5">
+                <div className="flex flex-row flex-wrap gap-2">
                     {
                         (tags) && tags.map((tag, i) => <p key={i} className="text-xs text-slate-500 z-10 font-semibold uppercase">{ tag }</p>)
                     }
