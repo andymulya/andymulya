@@ -4,7 +4,7 @@ import Circle from "./Circle"
 export default function CustomCard({ title, tags, color, shadowColor, label, icon }){
     return (
         <div className={"card w-auto sm:w-72 bg-base-100 shadow-md border-8 border-white dark:border-slate-800 overflow-clip hover:shadow-xl hover:sm:scale-105 transition-all " + shadowColor}>
-            <div className="card-body">
+            <div className="card-body flex flex-col justify-between">
                 <Circle color={ color }/>
 
                 {/* icon */}
